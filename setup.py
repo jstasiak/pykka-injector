@@ -13,9 +13,9 @@ version = line.split('=')[-1].strip().strip("'")
 
 if __name__ == '__main__':
     setup(
-        name='pykka_injector',
-        url='http://github.com/jstasiak/pykka_injector',
-        download_url='http://pypi.python.org/pypi/pykka_injector',
+        name='pykka-injector',
+        url='http://github.com/jstasiak/pykka-injector',
+        download_url='http://pypi.python.org/pypi/pykka-injector',
         version=version,
         description=description,
         long_description=long_description,
