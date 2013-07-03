@@ -6,7 +6,7 @@ pykka-injector
    :target: https://travis-ci.org/jstasiak/pykka_injector
 
 
-pykka-injector is a module uniting `Injector <https://github.com/alecthomas/injector>`_ and `Pykka <https://github.com/jodal/pykka`_. It's only purpose is to allow you to inject dependencies into Pykka Actors.
+pykka-injector is a module uniting `Injector <https://github.com/alecthomas/injector>`_ and `Pykka <https://github.com/jodal/pykka>`_. It's only purpose is to allow you to inject dependencies into Pykka Actors.
 
 Works with:
 
