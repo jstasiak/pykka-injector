@@ -3,7 +3,7 @@ from __future__ import absolute_import, division, print_function, unicode_litera
 
 from injector import inject, Injector
 
-__version__ = '0.1.0'
+__version__ = '0.1.1'
 
 
 @inject(_injector=Injector)

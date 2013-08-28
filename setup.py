@@ -5,7 +5,10 @@ from setuptools import setup
 PROJECT_ROOT = abspath(dirname(__file__))
 
 long_description = open(join(PROJECT_ROOT, 'README.rst')).read()
-description = 'Pykka/Injector integration module'
+description = (
+    'Pykka (actor model implementation) and Injector '
+    '(dependency injection framework) integration module'
+)
 
 module_code = open(join(PROJECT_ROOT, 'pykka_injector.py')).readlines()
 line = [line for line in module_code if line.startswith('__version__ = ')][0]
@@ -29,4 +32,5 @@ if __name__ == '__main__':
             'pykka',
             'injector',
         ],
+        keywords='Dependency Injection,Injector,Pykka',
     )
