@@ -19,7 +19,7 @@ Platform independent.
 Usage example
 -------------
 
-::
+.. code-block:: python
 
     from injector import inject, Injector, InstanceProvider, Key, singleton
     from pykka import ThreadingActor
